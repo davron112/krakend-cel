@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/davron112/krakend-cel/v2/internal"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
 	"github.com/google/cel-go/cel"
-	"github.com/krakendio/krakend-cel/v2/internal"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
 )
 
 func ProxyFactory(l logging.Logger, pf proxy.Factory) proxy.Factory {

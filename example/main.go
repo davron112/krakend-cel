@@ -8,15 +8,15 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
+	krakendgin "github.com/davron112/lura/v2/router/gin"
+	"github.com/davron112/lura/v2/transport/http/client"
+	"github.com/davron112/lura/v2/transport/http/server"
 	"github.com/gin-gonic/gin"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	krakendgin "github.com/luraproject/lura/v2/router/gin"
-	"github.com/luraproject/lura/v2/transport/http/client"
-	"github.com/luraproject/lura/v2/transport/http/server"
 
-	cel "github.com/krakendio/krakend-cel/v2"
+	cel "github.com/davron112/krakend-cel/v2"
 )
 
 func main() {

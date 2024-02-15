@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/krakendio/krakend-cel/v2/internal"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
+	"github.com/davron112/krakend-cel/v2/internal"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
 )
 
 func BenchmarkProxyFactory_reqParams_int(b *testing.B) {

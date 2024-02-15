@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/checker/decls"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
 )
 
 type InterpretableDefinition struct {
