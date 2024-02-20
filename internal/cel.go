@@ -35,7 +35,7 @@ func ConfigGetter(e config.ExtraConfig) ([]InterpretableDefinition, bool) {
 	return def, true
 }
 
-const Namespace = "github.com/devopsfaith/krakend-cel"
+const Namespace = "github.com/davron112/krakend-cel"
 
 var (
 	ErrParsing  = errors.New("cel: error parsing the expression")
